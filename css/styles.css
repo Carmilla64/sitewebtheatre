@@ -1,0 +1,311 @@
+body{
+	margin                     : 0;
+	background                 : #030303;
+	font-family                : 'Oswald', sans-serif;
+
+}
+
+#container{
+	margin                     : 0 auto;
+	width                      : 1138px;
+	background-color           : rgba(158, 60, 60, 0.5);
+	border-right               : 1px solid rgba(0, 0, 0, 0.5);
+	border-left                : 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#header{
+	background-color           : #ecebea;
+	position                   : fixed;
+	width                      : 1138px;
+	position                   : relative;
+}
+
+#header ul {
+	list-style-type            : none;
+	padding                    : 0;
+	margin                     : 0;
+	display                    : inline-block;
+	line-height                : 115px;
+}
+
+#header li{
+	display                    : inline-block;
+}
+
+#header a {
+	background-image           : url(../images/virgulenav.png);
+	background-position        : right;
+	background-repeat          : no-repeat;
+	text-decoration            : none;
+	color                      : black;
+	padding-right              : 30px;
+	padding-top                : 25px;
+	padding-bottom             : 25px;
+}
+
+#header a:hover{
+	background-image           : url(../images/hovervirgulenav.png);
+	background-position        : right;
+	background-repeat          : no-repeat;
+	text-decoration            : none;
+	color                      : #a61e22;
+}
+
+.navigation{
+	float                      : right;
+	top                        : 40px;
+	right                      : 15px;
+	font-size                  : 25px;
+}
+
+#headerbgrouge{
+	bottom                     : 0;
+}
+
+img {
+	    vertical-align: bottom;
+}
+
+.bxslider{
+	width                      : 1138; 
+	background-color           : black;
+	align-content              : center;
+	position                   : absolute;
+}
+
+#flechegauche a{
+	background-image           : url(../sliderflecheg.png);
+}
+
+#flechegauche:hover a{
+	background-image           : url(../images/hoversliderflecheg.png);
+}
+
+#flechedroite a{
+	background-image           : url(../images/sliderfleched.png);
+}
+
+#flechedroite:hover a{
+	background-image           : url(../images/hoversliderfleched.png);
+}
+
+#diaporama img{
+
+	margin-top                 : 0;
+	border                     : 6px solid #a61e22;
+	padding                    : px;
+}
+.typeblock{
+	display                    : block;
+}
+.aligncenter{
+	text-align                 : center;
+}
+
+.alignleft{
+	text-align                 : left; 
+}
+
+.alignright{
+	text-align                 : right; 
+}
+#content{
+	background-color            : #ecebea;
+	padding                     : 10px;
+	width                       : 1119px;
+	margin                      : 0 auto;
+	height                      : 1300px;
+	border                      : 2px solid #a61e22;
+}
+
+#contentgauche{
+	float                       : left;
+	width                       : 490px;
+	padding                     : 10px;
+}
+
+#contentdroite{
+	float                       : right;
+	width                       : 490px;
+	padding                     : 10px;
+}
+
+.lettrine{
+	float                       : left;
+	margin-right                : 10px;
+	margin-top                  : 10px;
+}
+
+.legende{
+	text-align                  : center;
+	font-size                   : 10px;
+}
+
+.clearfix{
+	clear                       : both;
+}
+
+#bordure{
+	margin                      : 20px;
+	padding                     : 20px;
+}
+
+
+.majuscule{
+	text-transform              : uppercase;
+}
+
+.texterouge{
+	color                       : #a61e22;
+}
+
+
+.lire {
+	background-image            : url(../images/icone-lire.png);
+	background-position         : left;
+	background-repeat           : no-repeat;
+	float: left;
+	padding-left                : 45px;
+	padding-top                 : 5px;
+	padding-bottom              : 5px;
+}
+
+.lire:hover{
+	background-image            : url(../images/hover-icone-lire.png);
+	color                       : #a61e22;
+	text-decoration             : underline;
+	}
+
+.prog{
+	background-image            : url(../images/icone-programme.png);
+	background-position         : right;
+	background-repeat           : no-repeat;
+	padding-right               : 40px;
+	padding-top                 : 5px;
+	padding-bottom              : 1px;
+}
+
+.prog:hover{
+	background-image            : url(../images/hover-icone-programme.png) ;
+	color                       : #a61e22;
+	text-decoration             : underline;
+}
+
+
+#footer{
+	background-image            : url(../images/imagefooter.png); 
+	background-repeat           : no-repeat;
+	color                       : #ecebea;
+}
+
+#footer a {
+	color                       : #ecebea;
+	text-decoration             : none;
+}
+
+#footer ul{
+	color                       :#ecebea;
+	text-decoration             : none;
+	list-style-type             : none;
+}
+
+
+#footer a:hover {
+	background-position         : right;
+	background-repeat           : no-repeat;
+	color                       : #a61e22;
+	text-decoration             : underline;
+}
+
+#informations, #menubas, #reseauxsociaux{
+	float                       : left;
+	width                       : 357px;
+	padding                     : 10px;
+}
+
+#menubas{
+	border-right                : 5px solid #a61e22 ;
+	border-left                 : 5px solid #a61e22;
+}
+
+#facebook, #twitter, #google {
+	display                     : inline-block;
+	margin-right                : 5px;
+	float                       : left;
+}
+
+#facebook{
+	background-image            : url(../images/icone-fb.png);
+	background-repeat           : no-repeat;
+	width                       : 45px;
+	height                      : 45px;
+}
+
+#facebook:hover{
+	background-image            : url(../images/hover-fb.png); 
+	}
+
+#twitter{
+	background-image            : url(../images/icone-twitter.png);
+	background-repeat           : no-repeat;
+	width                       : 45px;
+	height                      : 45px;
+}
+
+#twitter:hover{
+	background-image            : url(../images/hover-twitter.png); 
+	}
+
+#google{
+	background-image            : url(../images/icone-google.png);
+	background-repeat           : no-repeat;
+	width                       : 45px;
+	height                      : 45px;
+}
+
+#google:hover{
+	background-image             : url(../images/hover-google.png); 
+	}
+
+#blocslide{
+	position                     : fixed;
+	top                          : 25px;
+	right                        : -360px;
+	height                       : 657px;
+	background-image             : url(../images/actualites.png);
+	background-repeat            : no-repeat;
+	padding-bottom               : 5px;  
+	display                      : inline-block; 
+	border-width                 : 0;
+	margin                       : 0;
+	padding-left                 : 21px;
+	border-top-left-radius       : 15px;
+	transition                   : all 1s;
+}
+
+#blocslide:hover{
+	right                        : 0;
+}
+
+#blocdroite{
+	color                        : #ecebea;
+	background-color             : #050505;
+	background-image             : url(../images/circus.png);
+	width                        : 380px;
+	background-repeat            : no-repeat;
+	background-position          : bottom right;
+	margin-left                  : 10px; 
+	border                       : 2px solid black;
+	padding                      : 5px 10px 53px 10px;
+}
+
+#lireblocdroite a{
+	color                        : #ecebea;
+}
+
+#lireblocdroite a:hover{
+	color                        : #a61e22;
+	text-decoration              : underline;
+	background-repeat            : no-repeat;
+}
+
